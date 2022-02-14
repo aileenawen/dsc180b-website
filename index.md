@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+# DSC180B Project
 
-You can use the [editor on GitHub](https://github.com/aileenawen/dsc180b-website/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Introduction
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+"""
+1. What is the motivating question/problem being addressed?  
+3. Why should the reader care? (Significance)
+4. How are you approaching the problem? Why is it reasonable? 
+"""
 
-```markdown
-Syntax highlighted code block
+Our problem of interest for this project is to investigate ways to reduce the size of machine learning models while maintaining the same functionalities and performances as before. For the first half of the project, we investigated and studied BNNs through the paper “Quantized Neural Networks: Training Neural Networks with Low Precision Weights and Activations”. We focused on rebuilding the BNNs according to the method mentioned in the paper with more modernized libraries, namely Pytorch and Tensorflow, last quarter. In the second half of the project, we shifted our focus on investigating whether changing the number of bits and architecture make a difference in the performance of our neural network model. Additionally, we wanted to apply our methods to other types of neural networks.
 
-# Header 1
-## Header 2
-### Header 3
+Our work is significant because we believe that the ability to utilize NNs on smaller devices will revolutionize the industry, and we would like to be part of this world-changing process while diving deep into studying some of the cutting-edge models and optimization methods.
+- modernized library, scalable code, ready to put in production, good for future explorations.
+- better understanding of the relationship between number of bits used, activation functions, and the performance of the model.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## Method and Approach
 
-[Link](url) and ![Image](src)
-```
+### First Quarter
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+"""
+Describe how you approached the problem
+A description of your methods describes how your approach is effective and/or novel.
+How in-depth the explanation depends on the audience!
+"""
 
-### Jekyll Themes
+In the first part of the project, we studied the methods introduced in the paper “Quantized Neural Networks: Training Neural Networks with Low Precision Weights and Activations”. We also reproduced the methods and experiments described in the paper using two more modernized libraries, Tensorflow and PyTorch, instead of Theano which was what the paper originally used. 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aileenawen/dsc180b-website/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### Investigation & Analysis
 
-### Support or Contact
+#### Results
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+### Second Quarter
+
+"""
+Describe how you approached the problem
+A description of your methods describes how your approach is effective and/or novel.
+How in-depth the explanation depends on the audience!
+"""
+
+During the second half of the project, we hope to explore how using different numbers of bits affects the accuracy of our models, especially for RNN and LSTM, since the paper mentioned how RNN and LSTM did not work well for 2 bits and needed 4 bits instead. Furthermore, we will also investigate how other functions, other than the HardTanh function, during backpropagation or a different combination of several layers and Neuron sizes might affect NNs’ accuracy, size, and power consumptions.
+
+#### Experiments
+
+#### Results
+
+
+
+## Conclusion and Impact
