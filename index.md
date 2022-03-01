@@ -10,11 +10,9 @@
 4. How are you approaching the problem? Why is it reasonable? 
 """
 
-Our problem of interest for this project is to investigate ways to reduce the size of machine learning models while maintaining the same functionalities and performances as before. For the first half of the project, we investigated and studied BNNs through the paper “Quantized Neural Networks: Training Neural Networks with Low Precision Weights and Activations”. We focused on rebuilding the BNNs according to the method mentioned in the paper with more modernized libraries, namely Pytorch and Tensorflow, last quarter. In the second half of the project, we shifted our focus on investigating whether changing the number of bits and architecture make a difference in the performance of our neural network model. Additionally, we wanted to apply our methods to other types of neural networks.
+Our problem of interest for this project is to investigate ways to reduce the size of machine learning models while maintaining the same functionalities and performances as before. For the first half of the project, we investigated and studied BNNs through the paper “Quantized Neural Networks: Training Neural Networks with Low Precision Weights and Activations”. We focused on rebuilding the BNNs according to the method mentioned in the paper with more modernized libraries, namely Pytorch and Tensorflow, last quarter. In the second half of the project, we shifted our focus on investigating how does using different numbers of bits affects the accuracy of our models, especially for RNN and LSTM, since the paper mentioned how RNN and LSTM did not work well for 2 bits and needed 4 bits instead. Furthermore, we will also investigate how does using other functions, other than the HardTanh function, during backpropagation affect NNs’ accuracy, size, and power consumptions
 
-Our work is significant because we believe that the ability to utilize NNs on smaller devices will revolutionize the industry, and we would like to be part of this world-changing process while diving deep into studying some of the cutting-edge models and optimization methods.
-- modernized library, scalable code, ready to put in production, good for future explorations.
-- better understanding of the relationship between number of bits used, activation functions, and the performance of the model.
+Our work is significant because we believe that the ability to utilize NNs on smaller devices will revolutionize the industry, and we would like to be part of this world-changing process while diving deep into studying some of the cutting-edge models and optimization methods. 
 
 
 
