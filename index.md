@@ -28,7 +28,18 @@ How in-depth the explanation depends on the audience!
 
 In the first part of the project, we studied the methods introduced in the paper “Quantized Neural Networks: Training Neural Networks with Low Precision Weights and Activations”. We also reproduced the methods and experiments described in the paper using two more modernized libraries, Tensorflow and PyTorch, instead of Theano which was what the paper originally used. 
 
+#### Datasets
+
+In order to implement NNs and LSTM methods, we use three datasets for our analysis: MNIST, SVHN, and CIFAR-10. These datasets are commonly used for machine learning and are publicly available. 
+
+##### MNIST
+""" 
+The MNIST dataset contains grayscale images of handwritten numbers, ranging from 0 to 9. They are represented as 28x28 matrices where each value in the matrix is a pixel.
+
+"""
+
 #### Investigation & Analysis
+
 
 #### Results
 
